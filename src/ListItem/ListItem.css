@@ -1,0 +1,25 @@
+.ListItem {
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+}
+
+.ListItem_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.ListItem_img {
+    width: 100%;
+    flex: 1;
+}
+
+.ListItem_info {
+    flex: 1;
+    margin-right: 250px;
+}
